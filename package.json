@@ -1,0 +1,16 @@
+{
+    "name": "spotiproxy",
+    "version": "1.0.0",
+    "description": "Reverse proxy for Spotify's API",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "wrangler preview --watch",
+        "build": "wrangler build",
+        "deploy": "wrangler publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/carter-0/spotiproxy.git"
+    },
+    "license": "MIT"
+}
